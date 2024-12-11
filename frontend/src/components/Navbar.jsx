@@ -45,7 +45,7 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-8 font-medium">
         <NavLink to="/">
           <li>Home</li>
-          <hr className="border-none outline-none h-1 bg-white  rounded-full w-4/5 m-auto hidden" />
+          <hr className="border-none outline-none h-[2px] bg-blue-500  rounded-full w-4/5 m-auto hidden" />
         </NavLink>
         <NavLink to="/products">
           <li>Products</li>
